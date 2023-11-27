@@ -1,0 +1,37 @@
+@import url(head.css);
+
+@import url(content-header.css); 
+
+@import url(acerca-de.css);
+
+@import url(reseñas.css);
+
+@import url(footer.css);
+
+@import url(m-v.css);
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto:wght@100&@700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    height: 170vh;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+  }

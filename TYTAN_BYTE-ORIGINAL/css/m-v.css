@@ -1,0 +1,18 @@
+/*MISION Y VISION INICIO*/
+.price {
+    background: url(../IMG/backgroun-price1.jpg) no-repeat center; 
+    background-color: #0009;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+  }
+  .M-V-text{
+    text-align: center;
+    color: #fff;
+    font-size: 26px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    text-shadow: -3px 5px 5px blue; 
+
+  }
+  /*MISION Y VISION FINAL*/
