@@ -1,0 +1,131 @@
+ /*QUIENES SOMOS*/
+ #title{
+    margin-bottom: 0;
+    margin-top: 15px; 
+  }
+  
+  .title {
+      font-size: 50px; 
+      font-weight: 600;
+       color: white; 
+      text-shadow: 3px 5px 5px blue;
+      
+  }
+  #banner_description{
+    text-shadow: -1px -1px 1px #1df2f0, 0px 2px 2px #E94BE8;
+
+  }
+  p{
+    
+      font-size: 20px;
+      color: #fff;
+      padding: 35px 15px;
+      text-shadow: 1px 1px 3px white;
+  }
+ 
+  .content { 
+      height: 70vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+  }
+  
+  .section-1 { 
+      padding: 50px 0px;
+      background:#3f3f3f;  
+      box-shadow: 1px -5px 24px 3px #8414ffbf;
+  }
+ 
+  /*CONTENEDORES INICIO*/
+
+   .box-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      text-align: center;
+      position: relative;
+       gap: 20px;
+   }
+  
+   .box-container .box { 
+      height: 23rem;
+      width: 19rem;
+      background: #101010; 
+      text-align: center;
+      border-radius: 1rem;
+  
+      box-shadow: 0.3rem 1rem rgba(0, 0, 0, 0.4);
+      margin: 1rem;
+       
+  }
+  .bx{
+    text-shadow: -1px -1px 1px #1df2f0, 0px 2px 2px #E94BE8;
+  
+  }
+  .fa-lightbulb{
+    text-shadow: -1px -1px 1px #1df2f0, 0px 2px 2px #E94BE8;
+  
+  }
+   .box-container .box i {
+      height: 3rem;
+      width: 3rem;
+      filter: drop-shadow(2px 2px #fff);
+      line-height: 3rem;
+      text-align: center;
+      border-radius: 6px;
+      color: #000;
+      background: aqua;
+      font-size: 2rem;
+      margin: 1rem 0 ;
+  
+   }
+  
+   .box-container .box h3 {
+      font-size: 20px;
+      color: #f0ffff;
+      text-shadow: -4px 6px 5px black;
+   }
+   .box-container .box p { 
+      padding: 0 15px;
+      font-size: 17px;
+      margin : 15px;
+      
+      line-height: 1.5;
+    }
+
+    @media only screen and (max-width: 480px) {
+      #banner_description{
+        font-size: 17px; 
+      }
+    .sub_titulo-titulo{
+    font-size: 35px;
+    }
+    
+    }
+    
+    /* Media Query para pantallas medianas (tabletas) */
+    @media only screen and (min-width: 481px) and (max-width: 768px) {
+    P {  
+    font-size: 17px;
+    } 
+    .sub_titulo-titulo{
+      font-size: 35px;
+      }
+      
+    }
+    /* Media Query para pantallas grandes (PC) */
+    @media only screen and (min-width: 769px) {
+    P { 
+      font-size: 20px; 
+    }/* Tamaño de fuente por defecto para pantallas grandes */
+    
+    }
+    @media only screen and (max-width: 48rem) {
+    
+      .content { 
+      height: 100vh;
+  
+    }
+  }

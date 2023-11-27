@@ -1,0 +1,61 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.header {
+
+    background:  url(../QUIENES-SOMOS/IMG/bienvenido.jpg) ; /*cambiar imagen*/
+    background-color: #0009;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.main_titulo  {
+     margin-bottom: 40px;
+    font-size: 6rem; 
+    font-weight: 600;
+    color: white; 
+    text-shadow: -3px 5px 5px blue; 
+    }
+  
+.main_titulo span {
+    color:aqua;
+}
+.sub_titulo{
+ margin: 15px;
+  gap: .5rem;
+  font-weight: 700;
+  color: #fff;
+  font-size: 20px;
+  text-shadow: -3px 2px 3px blue;
+}
+.sub_titulo-titulo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  font-weight: 700;
+  color: #fff !important;
+  font-size: 65px;
+  text-shadow: -3px 2px 3px blue;
+}
+.tecnologicas 
+{
+  display: block;
+  margin: auto;
+  white-space: nowrap;
+  color: aqua;
+
+}
+@media(max-width:480px) {
+  .header{
+    background: url(../QUIENES-SOMOS/IMG/responsive1.jpg);
+  }
+}
+@media (max-width:770px){
+  .header{
+    background: url(../QUIENES-SOMOS/IMG/responsive1.jpg);
+  }
+}

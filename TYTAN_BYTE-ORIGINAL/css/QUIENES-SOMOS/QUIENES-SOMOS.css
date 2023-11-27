@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto:wght@100&@700&display=swap');
+
+@import url(./HEAD-Q.css);
+
+@import url(./HEADER-Q.css);
+
+@import url(./CONTENT-SOMOS.css); 
+
+@import url(./PQ-ELEGIR.css);
+
+@import url(../QUIENES-SOMOS/M-V.css);
+
+@import url(../footer.css);
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    height: 170vh;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  
+:root{
+    --color: #17a2ff;
+  }
+  
+    /*HEAD*/
+
+   /*HEAD FIN*/
+   
+     /*HEADER*/
+  
+    /*HEADER FIN*/
+
+    /*QUIENES SOMOS*/
+
+  /*QUIENES SOMOS FINAL*/
+ 
+
+/*PORQUE ELEGIRNOS*/
+
+/*PORQUE ELEGIRNOS FINAL*/
+
+/*MISION Y VISION*/
+
+/*MISION Y VISION FINAL*/
