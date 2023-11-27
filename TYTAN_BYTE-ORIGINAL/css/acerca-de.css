@@ -1,0 +1,135 @@
+/*ACERCA DE  INICIO*/
+.about {
+    background: #171717;
+    box-shadow: 1px -5px 24px 3px rgba(13,214,127,0.75);
+
+  }
+
+  .banner_AC{
+  display: flex;
+  align-items: center;
+  
+}
+.imagen{
+  flex: 1;
+}
+.imagen img {
+  width: 100%;
+  height: 100%;
+  left: 0;
+    box-shadow: 0 0 30px #333232cc;
+    border-radius: 15px;
+    display: grid;
+  }
+.contenido_banner{
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+#banner_description{
+    padding: 1px 5px;
+    margin-top:40px;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+/*BOTON SABER MÁS*/
+.saber {
+ width: 7.5em;
+ height: 2.3em;
+ margin: 0.5em;
+ background: black;
+ color: aqua;
+ border: none;
+ border-radius: 0.625em;
+ font-size: 20px;
+ font-weight: bold;
+ cursor: pointer;
+ position: relative;
+ z-index: 1;
+ overflow: hidden;
+}
+
+.saber a:hover {
+ color: white;
+}
+
+.saber:after {
+ content: "";
+ background: #1BFD9C;
+ position: absolute;
+ z-index: -1;
+ left: -20%;
+ right: -20%;
+ top: 0;
+ bottom: 0;
+ transform: skewX(-45deg) scale(0, 1);
+ transition: all 0.5s;
+}
+
+.saber:hover:after {
+ transform: skewX(-45deg) scale(1, 1);
+ -webkit-transition: all 0.5s;
+ transition: all 0.5s;
+}
+.saber a{
+  color:aqua;
+}
+
+/*FIN DEL BOTON SABER MAS*/
+
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  #banner_description {  
+  font-size: 17px;
+  margin-top: 15px;
+} 
+}
+
+@media only screen and (min-width: 769px) {
+  #banner_description { 
+    font-size: 20px; 
+    margin-top: 15px;
+  }
+  .title{
+    font-size: 30px;
+  }
+}
+
+
+@media (max-width: 701px) {
+  .about{
+    background: #3f3f3f;
+    display: block;
+    height: auto;
+    box-shadow: none;
+  }
+  .banner_AC{
+    display: block;
+  }
+  .contenido_banner{
+    padding-top: 20px;
+    background: #171717;
+    border-radius: 0 0 10px 10px; 
+  }
+  .imagen img {
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 25px #1BFD9C;
+  }
+
+  #banner_description {
+    margin-top: 15px;
+    font-size: 16px;
+  }
+}
+
+
+@media screen and (min-width:702px) and (max-width:1400px){
+  .imagen img {
+    width: 100%;
+  }
+
+}
