@@ -81,7 +81,7 @@ margin: 5px 0;
 
 @media (max-width:90rem) {
   .reviews {
-    height: 140vh;
+    height: auto;
   }
 }
 
