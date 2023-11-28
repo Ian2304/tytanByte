@@ -33,13 +33,13 @@ if (user) {
     userNameElement.style.display = 'none';
     logoElement.style.display = 'block';
 }
-/*
+
 // Define el mensaje de bienvenida
 const mensaje = "¡Gracias por interesarte en TYTAN BYTE!";
 
 // Muestra un mensaje emergente
 alert(mensaje);
-*/
+
 /*SCROOLREVEAL*/ 
 window.sr = ScrollReveal();
 
